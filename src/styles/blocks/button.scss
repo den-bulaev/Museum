@@ -4,7 +4,7 @@
   justify-content: center;
   width: 270px;
   height: 60px;
-  transition: 0.5s;
+  transition: 0.3s;
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 16px;
@@ -18,6 +18,10 @@
     background-color: #e74d2a;
   }
 
+  &:active {
+    background-color: #fa7d61;
+  }
+
   @media (max-width: 320px) {
     width: 100%;
   }
@@ -28,6 +32,10 @@
 
     &:hover {
       background-color: #3f5252;
+    }
+
+    &:active {
+      background-color: #637070;
     }
   }
 
